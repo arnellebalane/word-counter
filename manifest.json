@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Word Counter",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["content-script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
